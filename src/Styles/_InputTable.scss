@@ -1,0 +1,40 @@
+.TableContainer {
+	display: flex;
+	width: 550px;
+	padding: 20px 20px 40px;
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	background: white;
+
+	.TableContainer__RadioGroup {
+		margin-top: 113px;
+
+		.TableContainer__Radio {
+			width: 44px;
+			height: 44px;
+		}
+	}
+
+	.TableContainer__Table {
+		width: 500px;
+
+		.TableContainer__TableHeaderRow {
+			font-size: 10px;
+
+			.TableContainer__TableCell {
+				text-align: center;
+				font-size: 13px;
+			}
+		}
+
+		.TableContainer__TableRow {
+
+			.TableContainer__TableCell {
+				text-align: center;
+				margin: auto;
+				padding: 10px 0;
+
+			}
+		}
+	}
+}

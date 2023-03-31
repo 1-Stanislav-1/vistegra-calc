@@ -1,0 +1,21 @@
+.Output {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 40px 0;
+
+	.Output__Title {
+		margin-bottom: 40px;
+		font-size: 30px;
+		font-weight: 500;
+	}
+
+	.TableContainer {
+
+		.TableContainer__Table {
+			margin: auto;
+		}
+	}
+}
